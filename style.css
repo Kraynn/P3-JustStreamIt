@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: "Lucinda-Sans", sans-serif
+    bac
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    border: 5px solid black;
+    box-shadow: 1px 3px 15px 3px black;
+}
+
+.header-logo{
+    border: 2px solid black;
+}
+.menu{
+    display: flex;
+    padding-left: 25%;
+}
+
+.menu-categories{
+    padding-left: 20%;
+}
+
+#best-movie{
+    width: 60%;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 20px 20px 15px black;
+    display: flex;
+    margin: auto
+}
+
+.best-movie-img{
+    width: 100%;
+    height: 99%;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+    transition: 0.5s;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMTMyNTg1Mzc1NV5BMl5BanBnXkFtZTcwNjk1NzEyNw@@._V1_.jpg);
+}
+
+.best-movie-img:hover{opacity: 0.7}
+
+#slider{
+    height: 400px;
+    width: 90%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 15px 10px 15px black;
+
+}
+
+.container{
+    width: 80%;
+    justify-content: center;
+}
+
+.subcontainer{
+    width:  100%;
+}
+
+.slide-img{
+    width: 200px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.slide-img:hover{
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.slide-img a{
+    opacity: 0;
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+}
+
+.slide-img a:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.best-movies-img-1{
+    background-image: url(https://fr.web.img4.acsta.net/medias/nmedia/18/66/15/78/19254683.jpg);
+}
+.best-movies-img-2{
+    background-image: url(https://fr.web.img4.acsta.net/medias/nmedia/18/66/15/78/19254683.jpg);
+}
+.best-movies-img-3{
+    background-image: url(https://fr.web.img4.acsta.net/medias/nmedia/18/66/15/78/19254683.jpg);
+}
+.best-movies-img-4{
+    background-image: url(https://fr.web.img4.acsta.net/medias/nmedia/18/66/15/78/19254683.jpg);
+}
+.best-movies-img-5{
+    background-image: url(https://fr.web.img4.acsta.net/medias/nmedia/18/66/15/78/19254683.jpg);
+}
+.best-movies-img-6{
+    background-image: url(https://fr.web.img4.acsta.net/medias/nmedia/18/66/15/78/19254683.jpg);
+}
+.best-movies-img-7{
+    background-image: url(https://fr.web.img4.acsta.net/medias/nmedia/18/66/15/78/19254683.jpg);
+}
+
+@media(max-width:1600px){
+    .container{
+        width: 100%;
+    }
+}
