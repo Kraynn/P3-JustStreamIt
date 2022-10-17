@@ -18,6 +18,7 @@ Installation de l'API:
 ---------------------------
 Suivre les instructions d'installation de l'API fourni à l'adresse suivante:
 > https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR
+> 
 
 __________________________________________________________
 Téléchargement de l'interface utilisateur:
@@ -28,7 +29,6 @@ Téléchargez et extaire le contenu du repertoire https://github.com/Kraynn/P3-J
 Ou cloner le répertoire via github en utilisant la commande:
 > git clone https://github.com/Kraynn/P3-JustStreamIt
 > 
-Puis déplacer le contenu dans le repertoire local voulu.
 
 __________________________________________________________
 Lancement de l'api:
@@ -38,7 +38,7 @@ Avant chaque utilisation du site, lancer l'api dans son environnement virtuel au
 >env\scripts\activate.bat
 >
 >python manage.py runserver
-
+>
 
 ***************************
 
