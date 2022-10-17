@@ -36,6 +36,7 @@ Lancement de l'api:
 
 Avant chaque utilisation du site, lancer l'api dans son environnement virtuel au sein du répertoire local avec les commandes suivantes:
 >env\scripts\activate.bat
+>
 >python manage.py runserver
 
 
