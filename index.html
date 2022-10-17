@@ -11,73 +11,101 @@
 <body style="background-color: aliceblue;">
     <header id="header">
             <div class="headerLogo">
-                <img src="logo/logo.png" alt="Logo">
+                <img src="img/logo.png" alt="Logo">
             </div>
             <div class="menu">
                     <h2> Accueil</h2>
                     <h2 class="menuCategories"> Catégories</h2>
             </div>
     </header>
-    <br><br><br>    <!-- how to add space between elements of <body>??-->
     <section id="bestMovie">
         <div class="bestMovieContainer">
             <div class="bestMovieDetails">
                 <h1> Meiller film du moment :</h1>
                 <h2><span id="bTitle"></span></h2>
-                    <h3 class="bestMovieInfos"></h3>
+                    <div class="bestMovieInfos"></div>
             </div>
-            <div class="bestMovieImg"> <img id="bImg" alt="Meilleur film"></div>
+            <div class="bestMovieImg"> <img id="bImg" src="" alt="Meilleur film"></div>
         </div>
     </section>
-    <br><br><br>    <!-- how to add space between elements of <body>??-->
         <section class="slider">
-            <div> <h1 class="categoryName"> Meilleurs Films</h1></div>
             <div class="container">
+                <div> <h1 class="categoryName"> Meilleurs Films</h1></div>
                     <div class="subcontainer">
-                        <div id="bestMovies"> </div>
+                        <div class="carousel">
+                            <button class="carouselButton carouselButtonLeft">
+                                <img src="img/left.png" class="button" alt="">
+                            </button>
+                            <div class="carouselTrackContainer">
+                                <ul id="bestMovies" class="carouselTrack"></ul>
+                            </div>
+                            <button class="carouselButton carouselButtonRight">
+                                <img src="img/right.png" class="button" alt="">
+                            </button>
+                        </div>
                     </div>
             </div>
         </section>
-        <br><br><br>    <!-- how to add space between elements of <body>??-->
         <section class="slider">
-            <div> <h1 class="categoryName"> Films d'animation</h1></div>
             <div class="container">
+                <div> <h1 class="categoryName"> Films d'animation</h1></div>
                     <div class="subcontainer">
-                        <div id="animationMovies"> </div>
+                        <div class="carousel">
+                            <button class="carouselButton carouselButtonLeft">
+                                <img src="img/left.png" class="button" alt="">
+                            </button>
+                            <div class="carouselTrackContainer">
+                                <ul id="animationMovies" class="carouselTrack"></ul>
+                            </div>
+                            <button class="carouselButton carouselButtonRight">
+                                <img src="img/right.png" class="button" alt="">
+                            </button>
+                        </div>
                     </div>
             </div>
         </section>
-        <br><br><br>    <!-- how to add space between elements of <body>??-->
         <section class="slider">
-            <div> <h1 class="categoryName"> Films Dramas</h1></div>
             <div class="container">
+                <div> <h1 class="categoryName"> Films Dramas</h1></div>
                     <div class="subcontainer">
-                        <div id="dramaMovies"> </div>
+                        <div class="carousel">
+                            <button class="carouselButton carouselButtonLeft">
+                                <img src="img/left.png" class="button" alt="">
+                            </button>
+                            <div class="carouselTrackContainer">
+                                <ul id="dramaMovies" class="carouselTrack"></ul>>
+                            </div>
+                            <button class="carouselButton carouselButtonRight">
+                                <img src="img/right.png" class="button" alt="">
+                            </button>
+                        </div>
                     </div>
             </div>
         </section>
-        <br><br><br>    <!-- how to add space between elements of <body>??-->
         <section class="slider">
-            <div> <h1 class="categoryName"> Film Thrillers</h1></div>
             <div class="container">
+                <div> <h1 class="categoryName"> Films Thrillers</h1></div>
                     <div class="subcontainer">
-                        <div id="thrillerMovies"> </div>
+                        <div class="carousel">
+                            <button class="carouselButton carouselButtonLeft">
+                                <img src="img/left.png" class="button" alt="">
+                            </button>
+                            <div class="carouselTrackContainer">
+                                <ul id="thrillerMovies" class="carouselTrack"></ul>
+                            </div>
+                            <button class="carouselButton carouselButtonRight">
+                                <img src="img/right.png" class="button" alt="">
+                            </button>
+                        </div>
                     </div>
             </div>
         </section>
-        <br><br><br>    <!-- how to add space between elements of <body>??-->
-       <!-- <div class="modalContainer">
-            <div class="modal"></div>
-                <div class="modalContent">
-                    <div class="modalImg"></div>
-                    <div class="modalInformations"></div>
-                </div>
-            </div>
-        -->
     <dialog class="modal" id="modal">
         <div class="movieImg"></div>
         <div class="movieInfos"></div>
-        <button class="button closeButton"> Fermer</button>
+        <button>
+            <img class ="closeButton" src="img/croix.png" alt="">
+        </button>
     </dialog>
 </body>
 </html>
